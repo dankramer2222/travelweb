@@ -5,7 +5,7 @@ type ButtonProps = {
   type: "button" | "submit"; // Должно быть в двойных кавычках, не в одинарных
   title: string; // Должно быть без кавычек
   icon?: string; // Должно быть без кавычек
-  variant: "btn_dark_green";
+  variant:string;
 };
 
 // Компонент Button
